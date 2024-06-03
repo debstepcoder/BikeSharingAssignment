@@ -1,4 +1,4 @@
-# Bike Demand Prediction
+# Bike Sharing Assignment
 Predicting demand for shared bikes post-Covid lockdown using multiple linear regression to assist BoomBikes in strategic planning.
 
 ## Table of Contents
@@ -17,19 +17,21 @@ This project aims to build a multiple linear regression model to predict the dem
 
 ## Conclusions
 - Conclusion 1: The demand for shared bikes is influenced by various factors such as weather conditions, seasonality, and user type.
-- Conclusion 2: Certain variables like 'season' and 'weathersit' need to be converted into categorical string values to prevent misinterpretation.
-- Conclusion 3: The 'yr' column, indicating the year, should not be overlooked despite having only two values (0 and 1) as it contributes to understanding demand dynamics.
-- Conclusion 4: The 'cnt' variable, representing the total number of bike rentals, is used as the target variable for model building.
+- Conclusion 2: When temperature increases the demand increases, should keep track of the weather conditions.
+- Conclusion 3: Light Snow & Rain will depreciate the demand, should monitor weather forcast.
+- Conclusion 4: During Winter season the demand rises, hence it should be well prepared to meet the high demand.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- Python - version 3.8
-- Jupyter Notebook - version 6.2.0
+- Python v3.10
+- Matplotlib v3.5.0
+- Numpy v1.21.5
+- Pandas v1.3.5
+- Seaborn v0.11.2
 - Scikit-learn - version 0.24.1
-- Pandas - version 1.2.1
-- NumPy - version 1.19.5
+- statsmodels - v0.14.1
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
